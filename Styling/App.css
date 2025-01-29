@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.header{
+    font-family: "Joti One", serif;
+    color: white;
+    margin: 2.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoContainer h1{  
+  font-size:2.8em;
+  
+}
+
+
+
+.homeNavBar li{
+    padding: 0.8rem 2.8rem;
+    display: inline-block;
+    font-size: 2.8rem;
+}
+
+.homeNavBar li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.homeNavBar li a:hover{
+    color: rgb(194, 31, 156);
+}
+
+.butterflyContainer{
+    max-width: 600px;
+    height: 500px;
+    margin: 1rem auto;
+}
+
+.butterflyContainer img{
+    width: 100%;
+}
+
+.designationContainer {
+    color: #fff;
+    font-family: "Joti One", serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.designationContainer h3{
+    padding: 0.5rem;
+    /* border: 2px solid rgb(194, 31, 156);
+    border-radius: 10px; */
+}
+
+.contactContainer{
+    margin:0.5rem auto;
+    width: 400px;
+}
+
+.contactContainer :first-child{
+    margin-left: 1rem;
+}
+.contactContainer img{
+    width: 80px;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.projectsContainer h1{
+    color: #fff;
+}
+
+.projectContentContainer{
+    /* display: flex;
+    flex-direction: row; */
+}
+.projectContent{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.projectContent h2{
+    color: #fff;
+}
+
+.projectContent .imageTag{
+    width: 70%;
+    height: 80%;
+}
